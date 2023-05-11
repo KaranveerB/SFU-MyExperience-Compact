@@ -12,6 +12,9 @@ Beyond Gleb Pirogov's version, this includes
 
 Note that this breaks sorting by "Division" (you will not be missed) and empty columns still take some space as removing them entirely would interfere with different parts of the script and likley the website as well.
 
+### Current Issues
+FIXME: Sorting the page causes the non-css reformating to be lost. Can be fixed by running the `reformat()` function again after a sort.
+
 ### (Minor) Limitation
 Due to the nature of how the website itself loads, all the job postings must load before the script runs itself.
 For an end user, this means there is a noticeable delay between when the page is first viewable and when the compactness changes take effect.
