@@ -8,7 +8,7 @@ Beyond Gleb Pirogov's version, this includes
 - Merges "Tags" and "App[lication] Status" columns as their usage is mutually exclusive
   - Anything from "App Status" is put in a (new) green tag to make it more visible
 - Merges "Organization" and "Division" columns as a vast majority of companies don't use it (often just repeating the organization name in the division column)
-- Shortens some wording prevent "Position Type" and "Openings" from being unnecessarily large
+- Shortens some wording to prevent "Position Type" and "Openings" from being unnecessarily large
 
 Note that this breaks sorting by "Division" (you will not be missed) and empty columns still take some space as removing them entirely would interfere with different parts of the script and likley the website as well.
 
